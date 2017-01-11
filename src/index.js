@@ -1,6 +1,6 @@
 module.exports = (timeout) => {
   if (!Number.isInteger(timeout)) {
-    throw new Error('timeout must be a number')
+    throw new TypeError('timeout must be a number')
   }
 
   return new Promise((resolve, reject) => {
