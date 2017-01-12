@@ -3,7 +3,8 @@
 <h1 align="center">timeout-racer.js</h1>
 
 <div align="center">
-  <img src="http://travis-ci.org/caiogondim/timeout-racer.js.svg?branch=master" alt="Travis CI">  <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg" alt="JS standard style">
+  <img src="http://travis-ci.org/caiogondim/timeout-racer.js.svg?branch=master" alt="Travis CI">
+  <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg" alt="JS standard style">
 </div>
 
 <br>
