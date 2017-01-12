@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jest --coverage"
   },
+  "files": [
+    "README.md",
+    "src/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/caiogondim/timeout-racer.js.git"
