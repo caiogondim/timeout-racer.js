@@ -12,6 +12,7 @@
 
 ```
 npm install --save @caiogondim/timeout-racer
+```
 
 ## Usage
 
