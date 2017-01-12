@@ -9,6 +9,9 @@
 
 <br>
 
+`timeoutRacer` is a promise that rejects itself after `n` miliseconds passed as an argument.
+Useful to put a timeout on races between Promises.
+
 ## Installation
 
 ```
@@ -16,9 +19,6 @@ npm install --save @caiogondim/timeout-racer
 ```
 
 ## Usage
-
-`timeoutRacer` is a promise that rejects itself after `n` miliseconds passed as an argument.
-Useful to put a timeout on races between Promises.
 
 ```js
 Promise.race([
