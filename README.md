@@ -8,6 +8,36 @@
 
 <br>
 
+## Installation
+
+```
+npm install --save @caiogondim/timeout-racer
+
+## Usage
+
+`timeoutRacer` is a promise that rejects itself after `n` miliseconds passed as an argument.
+Useful to put a timeout on races between Promises.
+
+```js
+Promise.race([
+  fooBarPromise(),
+  timeoutRacer(15000)
+])
+  .then(() => {
+    // Will run if `fooBarPromise` resolves
+  })
+  .catch(() => {
+    // Will run if 15000 miliseconds passed
+    // or `fooBarPromise` rejects.
+  })
+```
+
 ## Credits
 
 - Icon by Corey Felter from the Noun Project
+
+---
+
+[caiogondim.com](https://caiogondim.com) &nbsp;&middot;&nbsp;
+GitHub [@caiogondim](https://github.com/caiogondim) &nbsp;&middot;&nbsp;
+Twitter [@caio_gondim](https://twitter.com/caio_gondim)
