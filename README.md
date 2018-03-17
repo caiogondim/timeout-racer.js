@@ -2,7 +2,7 @@
 
 # timeout-racer
 
-<div align="center">
+<div>
   <img src="http://travis-ci.org/caiogondim/timeout-racer.js.svg?branch=master" alt="Travis CI">
   <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg" alt="JS standard style">
 </div>
