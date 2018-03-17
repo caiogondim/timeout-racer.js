@@ -1,6 +1,6 @@
-<img src="http://rawgit.com/caiogondim/timeout-racer.js/master/docs/logo/github-banner.svg" width="100%" />
+<img src="http://rawgit.com/caiogondim/timeout-racer.js/master/logo/logo.svg" width="100%" />
 
-<h1 align="center">timeout-racer.js</h1>
+# timeout-racer
 
 <div align="center">
   <img src="http://travis-ci.org/caiogondim/timeout-racer.js.svg?branch=master" alt="Travis CI">
