@@ -15,7 +15,7 @@ Useful to put a timeout on races between Promises.
 ## Installation
 
 ```
-npm install --save @caiogondim/timeout-racer
+npm install --save timeout-racer
 ```
 
 ## Usage

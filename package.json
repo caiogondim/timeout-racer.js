@@ -1,5 +1,5 @@
 {
-  "name": "@caiogondim/timeout-racer",
+  "name": "timeout-racer",
   "version": "1.0.1",
   "description": "Timeout for promises race",
   "main": "src/index.js",
